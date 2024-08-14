@@ -1,0 +1,41 @@
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
+
+.sec {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.links p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+button, .sign-up {
+    background-color: #3882f6;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
