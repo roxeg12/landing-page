@@ -1,5 +1,30 @@
 .header, .footer {
     background-color: #1f2937;
+    color: white;
+    display: flex;
+}
+
+.header {
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .main {
@@ -40,6 +65,4 @@ button, .sign-up {
     color: #1f2937;
 }
 
-.footer {
-    color: white;
-}
+
