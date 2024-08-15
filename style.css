@@ -27,6 +27,16 @@ a {
     color: white;
 }
 
+img {
+    width: 700px;
+}
+
+.hero {
+    display: flex;
+    padding: 50px 100px;
+}
+
+
 .main {
     font-size: 48px;
     font-weight: bolder;
@@ -35,7 +45,8 @@ a {
 
 .sec {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    width: 500px;
 }
 
 .links p {
