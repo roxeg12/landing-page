@@ -35,7 +35,8 @@ img {
     display: flex;
     padding: 50px 50px 100px 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 25px;
 }
 
 .container {
