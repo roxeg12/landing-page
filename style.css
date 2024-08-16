@@ -33,9 +33,18 @@ img {
 
 .hero {
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 50px 100px 50px;
+    align-items: center;
+    justify-content: center;
 }
 
+.container {
+    flex: 1;
+}
+
+.hero img {
+    flex: 1;
+}
 
 .main {
     font-size: 48px;
@@ -57,6 +66,7 @@ img {
 
 button, .sign-up {
     background-color: #3882f6;
+    color: white;
 }
 
 .info-header {
@@ -76,4 +86,16 @@ button, .sign-up {
     color: #1f2937;
 }
 
+button {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100px;
+    padding: 5px 10px;
+    border-color: white;
+}
+
+.container button {
+    border: none;
+}
 
