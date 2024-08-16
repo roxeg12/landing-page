@@ -92,8 +92,10 @@ button {
     font-weight: bold;
     border-radius: 8px;
     width: 100px;
+    height: 35px;
     padding: 5px 10px;
     border: 2px solid white;
+    flex: none;
 }
 
 .container button {
@@ -158,3 +160,25 @@ button {
     font-weight: bold;
 }
 
+.section4 {
+    padding: 60px;
+}
+
+.sign-up {
+    padding: 20px 100px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.sign-up-cont {
+    flex: 1;
+}
+
+.sign-up-header {
+    font-size: 25px;
+    font-weight: bold;
+}
