@@ -83,7 +83,7 @@ button, .sign-up {
 
 .quote {
     font-size: 36px;
-    font-style: italic;
+    
     color: #1f2937;
 }
 
@@ -131,5 +131,30 @@ button {
     text-align: center;
     color:gray;
     
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+.quote.text {
+    align-self: center;
+    font-style: italic;
+}
+
+.quote.credit {
+    align-self:flex-end;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
