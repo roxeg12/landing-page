@@ -182,3 +182,10 @@ button {
     font-size: 25px;
     font-weight: bold;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 15px;
+}
